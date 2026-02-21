@@ -13,7 +13,7 @@ const pin = inputPin.value;
 console.log(pin)
 if(contactNumber=='01912345678'&& pin =='1234'){
     alert('login succsess')
-    window.location.assign("/home.html")
+    window.location.assign("./home.html")
 }else{
     alert("login failed")
     return;
